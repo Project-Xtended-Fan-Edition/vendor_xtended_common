@@ -1,9 +1,9 @@
 # Non-Runtime Resource Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(VENDOR_PARASITE_COMMON_DIR)/overlay
+    $(VENDOR_EVEREST_COMMON_DIR)/overlay
 
 PRODUCT_PACKAGE_OVERLAYS += \
-    $(VENDOR_PARASITE_COMMON_DIR)/overlay/common
+    $(VENDOR_EVEREST_COMMON_DIR)/overlay/common
 
 # Cutout control overlay
 PRODUCT_PACKAGES += \

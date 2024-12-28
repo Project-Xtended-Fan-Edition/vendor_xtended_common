@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z $VENDOR_PARASITE_SETUP_DONE ]; then
+if [ -z $VENDOR_EVEREST_SETUP_DONE ]; then
 
 # ABI compatibility checks fail for several reasons:
 #   - The update to Clang 12 causes some changes, but no breakage has been
@@ -58,5 +58,5 @@ if [ -d "kernel/modules/misc/Kprofiles" ]; then
     cd ../../../../
 fi
 
-export VENDOR_PARASITE_SETUP_DONE=true
+export VENDOR_EVEREST_SETUP_DONE=true
 fi

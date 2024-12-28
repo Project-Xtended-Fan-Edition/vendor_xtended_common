@@ -49,7 +49,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     zygote.critical_window.minute?=10
 
 # Inherit art options
-include $(VENDOR_PARASITE_COMMON_DIR)/config/common/art.mk
+include $(VENDOR_EVEREST_COMMON_DIR)/config/common/art.mk
 
 # Inherit LMKD options
-include $(VENDOR_PARASITE_COMMON_DIR)/config/common/lmkd.mk
+include $(VENDOR_EVEREST_COMMON_DIR)/config/common/lmkd.mk

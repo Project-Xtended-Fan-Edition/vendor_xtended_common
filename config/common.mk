@@ -1,5 +1,6 @@
 # Branding
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/version.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/version.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/xtended.mk)
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.com.android.dataroaming=false \
@@ -44,25 +45,25 @@ PRODUCT_PACKAGES += \
     init.custom.rc
 
 # Apps
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/apps.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/apps.mk)
 
 # Configs
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/configs.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/configs.mk)
 
 # Fonts
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/fonts.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/fonts.mk)
 
 # Languages
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/languages.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/languages.mk)
 
 # Optimisation
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/optimisation.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/optimisation.mk)
 
 # Properties
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/properties.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/properties.mk)
 
 # Overlays
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/overlays.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/overlays.mk)
 
 # Tools
-$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/common/tools.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/common/tools.mk)
