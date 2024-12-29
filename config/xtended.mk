@@ -1,3 +1,10 @@
+# Project-Xtended Edition
+ifeq ($(WITH_GAPPS),true)
+XTENDED_EDITION := GAPPS
+else
+XTENDED_EDITION := VANILLA
+endif
+
 # Read maintainer and device lists
 OFFICIAL_MAINTAINERS := $(shell cat xtended-maintainers/xtended.maintainers)
 OFFICIAL_DEVICES := $(shell cat xtended-maintainers/xtended.devices)
@@ -32,3 +39,4 @@ ifeq ($(XTENDED_BUILDTYPE),OFFICIAL)
         $(error Build system error: Invalid official build configuration)
     endif
 endif
+
