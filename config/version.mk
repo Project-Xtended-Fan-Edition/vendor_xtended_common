@@ -28,4 +28,5 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.xtended.buildtype=$(LINEAGE_BUILDTYPE) \
     ro.xtended.version=$(XTENDED_VERSION) \
     ro.xtended.codename=$(XTENDED_CODENAME) \
-    ro.xtended.edition=$(XTENDED_EDITION)
+    ro.xtended.edition=$(XTENDED_EDITION) \
+    ro.xtended.maintainer=$(XTENDED_MAINTAINER)
