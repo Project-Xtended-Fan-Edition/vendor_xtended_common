@@ -1,3 +1,6 @@
+# Bootanimation
+include vendor/everest/common/config/bootanimation.mk
+
 # Project-Xtended Edition
 ifeq ($(WITH_GAPPS),true)
 XTENDED_EDITION := GAPPS
