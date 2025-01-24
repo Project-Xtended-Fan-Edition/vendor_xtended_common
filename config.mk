@@ -12,7 +12,7 @@ $(call inherit-product-if-exists, vendor/parasite/prebuilts/config.mk)
 TARGET_INCLUDE_PIXEL_FRAMEWORKS := false
 WITH_GAPPS ?= true
 ifeq ($(WITH_GAPPS),true)
-$(call inherit-product, vendor/google/gms/products/gms.mk)
+$(call inherit-product, vendor/gms/products/gms.mk)
 endif
 
 # Microsoft
